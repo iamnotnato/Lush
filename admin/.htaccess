@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^home?$ dashboard.php
+RewriteRule ^sales?$ sales.php
+RewriteRule ^products?$ products.php
+RewriteRule ^sales?$ sales.php
+RewriteRule ^login?$ index.php
+RewriteRule ^logout?$ logout.php
+RewriteRule ^add?$ add.php

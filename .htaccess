@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^home?$ index.php
+RewriteRule ^logout?$ logout.php
+RewriteRule ^login?$ login.php
+
+RewriteRule ^shop?$ shopping-index.php
